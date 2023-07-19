@@ -12,37 +12,20 @@ This is a simple RESTful API for managing books. It allows you to perform CRUD (
 ## Getting Started
 
 1. Clone the repository:
+   `git clone https://github.com/nishad7447/nodeJS_CRUD_BookCollections.git`
 
-   ```bash
-   git clone <repository-url>
 
-    Install dependencies:
+## Install dependencies: 
+`cd nodeJS_CRUD_BookCollections
+npm install` 
 
-    bash
 
-cd <project-folder>
-npm install
+## Start the server:
 
-Set up environment variables:
+    `npm start
+    The server will start running on http://localhost:3000.`
 
-    Create a .env file in the root directory of the project.
-
-    Define the following environment variables in the .env file:
-
-    env
-
-    PORT=3000
-    MONGODB_URI=<your-mongodb-uri>
-
-Start the server:
-
-bash
-
-    npm start
-
-    The server will start running on http://localhost:3000.
-
-Endpoints
+## Endpoints:
 Retrieve All Books
 
     Method: GET
